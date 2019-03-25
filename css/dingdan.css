@@ -1,0 +1,105 @@
+body{
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    margin-top: 0.5rem;
+    padding: 1rem 0 0 1rem;
+    background: white;
+}
+.indent-top{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    
+}
+.little{
+    width: 10%;
+    height: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.05)
+}
+.title-kj{
+    /* width: 90%; */
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5rem;
+    padding:0 0.5rem 0.5rem 0;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    margin: 0;
+}
+.title-kj span{
+display: inline-block;
+color: rgb(51, 51, 51);
+font-size: 0.8rem;
+}
+.title-kj span:nth-child(1){
+ 
+    text-indent: 0.5em;
+}
+.title-kj p{
+    color: rgb(51, 51, 51);
+    font-size: 0.8rem;
+    text-indent: 0.5em;
+}
+.indent-main{
+    padding: 0.5rem 0.4rem 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+.indent-main p{
+    display: inline-block;
+    font-size: 0.6rem;
+    color: rgb(51, 51, 51);
+}
+.indent-main span{
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    font-size: 0.8rem;
+}
+.title-bottom{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.button1{
+    border: 1px solid #2395ff;
+    background: white;
+    color: #2395ff;
+}
+.button2{
+    color: #ff5339;
+    border: 1px solid #ff5339;
+    background: white;
+    margin-left:0.5rem; 
+}
+.box-bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    background: white;
+}
+
+.box-bottom-div{
+   
+    text-align: center;
+    width: 25%;
+    
+}
+.box-bottom-div a{
+    
+    display: block;
+    height: 2rem;
+    line-height: 2rem;
+}
+.icon-elmyhq{
+    font-size: 1rem;
+    color: #2395ff;
+  
+}
+.box-bottom-div span{
+font-size: 0.8rem;
+display: inline-block;
+}

@@ -1,0 +1,147 @@
+html,body,div,p,img,a,h1,h2,h3,h4,h5,h6,span,ul,li,ol,i,input,span{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+body{
+    font-size: 0.16rem;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style:none;
+}
+.top{
+    color:#fff;
+    display: flex;
+    width:2.96rem;
+    height:0.55rem;
+    padding:0.2rem 0.12rem;
+    background: linear-gradient(90deg,#0af,#0085ff);
+    position: relative;
+}
+.portrait{
+    width:0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.portrait>img{
+    width:0.5rem;
+    height: 0.5rem;
+}
+.id{
+    margin-left:0.1rem;
+}
+.id>p{
+    margin-left: -0.2rem;
+    transform: scale(.7);
+}
+.top>i{
+    position:absolute;
+    top:0.35rem;
+    right:0.15rem;
+}
+.parcel{
+    display: flex;
+    height: 0.7rem;
+}
+.parcel>a{
+    display: block;
+    width: 1.59rem;
+    height: 0.38rem;
+    padding: 0.2rem 0;
+    text-align: center;
+}
+.red{
+    font-size: 0.2rem;
+    color:rgb(255, 95, 62);
+}
+.green{
+    font-size: 0.2rem;
+    color:rgb(106, 194, 11);
+}
+.red>small,.green>small{
+    font-size: 0.12rem;
+}
+.parcel p{
+    font-size: 0.12rem;
+    font-weight: 600;
+    color:#666;
+}
+.main{
+    height: 3.45rem;
+    padding-top: 0.1rem;
+    background: #eee;
+}
+.box{
+    background: #fff;
+    height:0.4rem;
+    line-height: 0.4rem;
+}
+.site{
+    display: flex;
+    padding: 0 0.05rem;
+    justify-content: space-between;
+}
+.site>i{
+    display: block;
+    width: 0.4rem;
+}
+.blue{
+    text-align: center;
+    color:rgb(74, 165, 240);
+}
+.right{
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    width: 2.8rem;
+    font-size: 0.14rem;
+
+}
+.right>i{
+    font-size: 0.12rem;
+}
+.privacy{
+    margin-top:0.2rem;
+    font-size: 0.14rem;
+    text-align: center;
+}
+
+.bottom{
+    height: 0.45rem;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    z-index: 1000;
+    border-top: 0.01rem solid #eee;
+}
+.bottom>a{
+    width:0.8rem;
+    /* height:0.45rem; */
+    /* line-height: 0.45rem; */
+    text-align: center;
+}
+.bottom>a>span{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    font-size: 0.12rem;
+    transform: scale(.8);
+    margin-top:-0.05rem;
+}
+.bottom>a>i{
+    display: inline-block;
+    /* margin-top: 0.05rem; */
+    font-size: 0.2rem !important;
+}
+.bottom>a>.elm{
+    font-size: 0.2rem !important;
+}
